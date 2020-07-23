@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 20px 20px 0 20px;
+    padding: 10px;
     width: 70%;
     border-bottom: 1px solid #cecece;
 }
@@ -14,4 +14,11 @@
 .todo-item .completed {
     color: #cdcdcd;
     text-decoration: line-through;
+}
+
+.todo-item .trash-can {
+    width: 18px;
+    height: auto;
+    margin-left: auto;
+    cursor: pointer;
 }
